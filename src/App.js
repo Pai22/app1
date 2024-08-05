@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css'
+import Calendar from './class-components';
 
 function App(){
   
@@ -9,6 +10,8 @@ function App(){
     <div className='title'>
       React & React Native
     </div>
+
+    <p><center><Calendar/></center></p>
     
     </>
   )
